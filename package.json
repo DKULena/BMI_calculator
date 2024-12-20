@@ -1,0 +1,11 @@
+{
+  "name": "BMI_calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DKULena/BMI_calculator.git",
+  "author": "DKULena <32173057@dankook.ac.kr>",
+  "license": "MIT",
+  "dependencies": {
+    "boxicons": "^2.1.4"
+  }
+}
