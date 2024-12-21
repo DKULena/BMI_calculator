@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI 계산기</title>
     <meta
       name="description"
       content="체질량지수(BMI) 계산기 - 건강한 생활을 위한 첫걸음"
-    />
-    <meta name="author" content="Lena"></meat>
-    <link rel="stylesheet" href="style.css" />
+    >
+    <meta name="author" content="Lena">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
   </head>
   <body>
     <main class="container">
       <div class="calculator">
         <h1>
-          체질량지수 계산기 <br />
+          체질량지수 계산기 <br>
           (BMI Calculator)
         </h1>
 
@@ -30,7 +30,7 @@
               max="250"
               placeholder="키를 입력하세요"
               required
-            />
+            >
           </div>
 
           <div class="form-group">
@@ -42,54 +42,54 @@
               max="300"
               placeholder="몸무게를 입력하세요"
               required
-            />
+            >
+          </div>
 
-            <button type="submit" class="button">계산하기</button>
+          <button type="submit" class="button">계산하기</button>
+          
+          <div id="result" class="result" aria-live="polite"></div>
         </form>
 
-            <div id="result" class="result" aria-live="polite"></div>
-          </div>
-
-          <div class="chart">
-            <table>
-                <caption>BMI 판정표</caption>
-                <thead>
-                    <tr>
-                        <th scope="col">BMI 범위</th>
-                        <th scope="col">비만도 판정</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>18.5미만</td>
-                        <td>저체중</td>
-                    </tr>
-                    <tr>
-                        <td>18.5 ~ 22.9</td>
-                        <td>정상</td>
-                    </tr>
-                    <tr>
-                        <td>22.9 ~ 24.9</td>
-                        <td>과체중</td>
-                    </tr>
-                    <tr>
-                        <td>25.0 이상</td>
-                        <td>비만</td>
-                    </tr>
-                </tbody>
-            </table>
-          </div>
+        <div class="chart">
+          <table>
+            <caption>BMI 판정표</caption>
+            <thead>
+              <tr>
+                <th scope="col">BMI 범위</th>
+                <th scope="col">비만도 판정</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>18.5미만</td>
+                <td>저체중</td>
+              </tr>
+              <tr>
+                <td>18.5 ~ 22.9</td>
+                <td>정상</td>
+              </tr>
+              <tr>
+                <td>22.9 ~ 24.9</td>
+                <td>과체중</td>
+              </tr>
+              <tr>
+                <td>25.0 이상</td>
+                <td>비만</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </main>
 
     <footer class="footer">
-        <div class="social-links">
-            <a href="#" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="#" aria-label="GitHub"><i class="bx bxl-github"></i></a>
-            <a href="#" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
-            <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
-        </div>
-        <p class="copyright">© 2024 All rights reserved</p>
+      <div class="social-links">
+        <a href="#" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+        <a href="#" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <p class="copyright">© 2024 All rights reserved</p>
     </footer>
     <script src="script.js"></script>
   </body>
