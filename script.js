@@ -18,7 +18,7 @@ const getBMICategory = (bmi) => {
 const healthAdvice = (category) => {
     const advice = {
         저체중: "균형 잡힌 영양섭취가 필요합니다.",
-        정상: "현제 체중을 잘 유지하세요",
+        정상: "현재 체중을 잘 유지하세요",
         과체중: "규칙적인 운동을 시작하세요",
         비만: "전문가와 상담을 권장드립니다."
     };
